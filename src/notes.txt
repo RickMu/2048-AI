@@ -1,0 +1,7 @@
+Initialized the first node,  which has the board passed in as argument
+
+Initialized an explored Array and its length. 
+
+Intialized a pointer node_t* parent. Another node_t child; Dont think it is too necessary
+
+Made child = parent, added depth by 1 and its child.parent=parent;

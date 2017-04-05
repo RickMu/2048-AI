@@ -1,0 +1,28 @@
+#!/bin/bash
+read -p "Enter Depth: " depth
+read -p "Enter mode <avg><max>: " mode
+
+echo $depth;
+
+echo $mode;
+
+heuristic=13; 
+loops=$depth;
+
+for (( c=0; c<$loops; c++ ))
+do
+  for (( i=0; i<=($depth*10); i++ ))
+  do
+    ./2048 ai $mode $depth $heuristic;
+  done
+
+#echo $depth;
+depth=$(($depth-1));
+#echo $heuristic;
+
+done
+
+
+
+ #
+  #echo $depth;

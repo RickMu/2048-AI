@@ -1,0 +1,7 @@
+Max Depth = 6
+ Generated Nodes = 3932572
+ Expanded Nodes = 3402894
+ Time = 3.03 Seconds
+ Expanded/Second = 1123067.33
+ max_tile = 2048
+ Score = 25584
